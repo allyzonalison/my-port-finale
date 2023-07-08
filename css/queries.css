@@ -1,0 +1,171 @@
+/* FOR BIG SCREEN QUERIES */
+
+@media(max-width: 3440px) {
+    html {
+        font-size: 80%;
+    }
+
+    .main-nav-box {
+        width: 40%;
+    }
+
+    .hero-box, .about-me-box, .projects-main-box, .hackathons-box {
+        width: 40%;
+    }
+
+    .name-top {
+        gap: .7rem;
+        transform: translate(120%, 70%);
+    }
+
+    .about-left-box {
+        width: 80%;
+    }
+
+    .mini-projects-box {
+        width: 31%;
+    }
+}
+
+@media(max-width: 3260px) {
+    .name-top {
+        gap: .7rem;
+        transform: translate(110%, 65%);
+    }
+}
+
+@media(max-width: 3125px) {
+    .name-top {
+        gap: .7rem;
+        transform: translate(105%, 55%);
+    } 
+
+    .projects-main-box {
+        width: 45%;
+    }
+
+    .mini-projects-box {
+        width: 36%;
+    }
+}
+
+@media(max-width: 3020px) {
+    html {
+        font-size: 65%;
+    }
+
+    .name-top {
+        gap: .7rem;
+        transform: translate(125%, 80%);
+    } 
+
+    .sliders-container {
+        height: 72rem;
+    }
+}
+
+@media(max-width: 2832px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media(max-width: 2749px) {
+    html {
+        font-size: 90%;
+    }
+
+    .main-nav-box {
+        width: 60%;
+    }
+
+    .hero-box, .about-me-box, .projects-main-box, .hackathons-box {
+        width: 60%;
+    }
+
+    .about-left-box {
+        width: 90%;
+    }
+
+
+    .name-top {
+        gap: .7rem;
+        transform: translate(125%, 80%);
+    } 
+
+    .my-desc {
+        width: 90%;
+    }
+
+    .sliders-container {
+        height: 60rem;
+    }
+
+    .mini-projects-box {
+        width: 48%;
+    }
+}
+
+@media(max-width: 2546px) {
+    html {
+        font-size: 88%;
+    }
+
+    .name-top {
+        gap: .7rem;
+        transform: translate(120%, 75%);
+    } 
+}
+
+@media(max-width: 2437px) {
+    .name-top {
+        gap: .7rem;
+        transform: translate(115%, 70%);
+    } 
+}
+
+@media(max-width: 2343px) {
+    html {
+        font-size: 85%;
+    }
+    .name-top {
+        gap: .7rem;
+        transform: translate(115%, 65%);
+    } 
+}
+
+@media(max-width: 2252px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media(max-width: 2132px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media(max-width: 1999px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media(max-width: 1879px) {
+    html {
+        font-size: 67%;
+    }
+}
+
+@media(max-width: 1813px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+@media(max-width: 1739px) {
+    html{
+        font-size: 63%;
+    }
+}

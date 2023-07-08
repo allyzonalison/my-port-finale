@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/queries-less.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,300;1,500&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>Aira Claveria</title>
+</head>
+<body>
+    <header class="header nav-open">
+        <div class="main-nav-box">
+            <ul class="main-nav-list">
+                <li class="li-menu menu-active" data-val="1">Home</li>
+                <li class="li-menu" data-val="2">About Me</li>
+                <li class="li-menu" data-val="3">Projects</li>
+                <li class="li-menu" data-val="4">Hackathons</li>
+            </ul>
+            <div class="right-icons">
+                <ion-icon class="icon-class email-icon" name="mail-outline"></ion-icon>
+                <ion-icon class="icon-class github-iconi" name="logo-github"></ion-icon>
+            </div>
+        </div>
+
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav menu-class menu-outline" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav close-class close-outline" name="close-outline"></ion-icon>
+        </button>
+    </header>
+
+    <main>
+        <section class="section section-hero" id="section1">
+            <div class="hero-box">
+                <div class="left-hero-box">
+                    <img class="hero-img" src="img/1.svg">
+                    <div class="name-top">
+                        <p class="hello-there">Hello there! Im</p>
+                        <p class="my-name">Aira Claveria</p>
+                    </div>
+                </div>
+                <div class="right-hero-box">
+                    <p class="my-desc">
+                        I'm a web designer based in Metro Manila.
+                        My passion lies in creating frontend products that are robust,
+                        scalable and offer exceptional user experiences.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-about-me section-hidden" id="section2">
+            <div class="about-me-box">
+                <div class="about-left-box">
+                    <h1 class="about-me-heading heading">About Me</h1>
+                    <p class="about-me-line">"Do what you love, love what you do"</p>
+                    <p class="about-me-desc">
+                        I develop products for clients abroad and worked full time at <b class="auburn">Auburn Digital Services.</b>
+                        I finished my Bachelors Degree at <b>Batangas State University</b> in 2022. I was
+                        working and studying at the same time since 2019 onwards.
+                        <br><br>
+                        Outside of work, I love cooking and cleaning my place.
+                    </p>
+                </div>
+                <div class="about-right-box">
+                    <img class="hero-img-2" src="img/2.svg">
+                </div>
+            </div>
+        </section>
+
+        <div class="section pink-line"></div>
+
+        <section class="section section-projects" id="section3">
+            <div class="projects-main-box">
+                <p class="my-projects-heading heading">My Projects</p>
+                <div class="sliders-container">
+                    <img class="slider-img" style="transform: translateX(0%);" src="img/sample-slider1 copy.jpg">
+                    <img class="slider-img" style="transform: translateX(0%);" src="img/slider22.jpg">
+                    <img class="slider-img" style="transform: translateX(0%);" src="img/slider33.jpg">
+
+                    <ion-icon class="slider-icon-left" name="chevron-back-outline"></ion-icon>
+                    <ion-icon class="slider-icon-right" name="chevron-forward-outline"></ion-icon>
+
+                    <div class="dots"></div>
+                </div>
+            </div>
+
+            <div class="mini-projects-box">
+                <div class="mini-box">
+                    <p class="project-title">Market Allyzon</p>
+                    <p class="project-desc">an ecommerce web app developed everything from scratch (from both frontend to backend)</p>
+                    <ion-icon class="github-icon " name="logo-github"></ion-icon>
+                </div>
+                <div class="mini-box">
+                    <p class="project-title">Re designed Social Security System Website</p>
+                    <p class="project-desc">I redesigned the current SSS website just for fun</p>
+                    <ion-icon class="github-icon" name="logo-github"></ion-icon>
+                </div>
+                <div class="mini-box">
+                    <p class="project-title">All CSS from scratch</p>
+                    <p class="project-desc">Making my own layouts and designs then coding using pure CSS (no other frameworks)</p>
+                    <ion-icon class="github-icon" name="logo-github"></ion-icon>
+                </div>
+                <div class="mini-box">
+                    <p class="project-title">Vanilla JS Projects</p>
+                    <p class="project-desc">my projects using Javascript without using any third party libraries</p>
+                    <ion-icon class="github-icon" name="logo-github"></ion-icon>
+                </div>
+                <div class="mini-box">
+                    <p class="project-title">Projects from Auburn</p>
+                    <p class="project-desc">my projects using Javascript without using any third party libraries</p>
+                    <ion-icon class="github-icon" name="logo-github"></ion-icon>
+                </div>
+                <div class="mini-box">
+                    <p class="project-title">This portfolio</p>
+                    <p class="project-desc">my projects using Javascript without using any third party libraries</p>
+                    <ion-icon class="github-icon" name="logo-github"></ion-icon>
+                </div>
+            </div>
+        </section>
+
+        <div class="section pink-line"></div>
+        
+        <section class="section section-hackathons" id="section4">
+            <div class="hackathons-box">
+                <p class="hackathon-heading heading"> Hackathons Attended</p>
+                <ul class="hack-list">
+                    <li><ion-icon class="ellipse" name="ellipse"></ion-icon>Accenture TechXplore 24-Hour Hackathon 2019</li>
+                    <li><ion-icon class="ellipse" name="ellipse"></ion-icon>Coca Cola Code Fest 2019</li>
+                    <li><ion-icon class="ellipse" name="ellipse"></ion-icon>1st ITMS PNP Hackathon</li>
+                    <li><ion-icon class="ellipse" name="ellipse"></ion-icon>Impact Hackathon</li>
+                    <li><ion-icon class="ellipse" name="ellipse"></ion-icon>iSite Regional Programming Competition</li>
+                    <li><ion-icon class="ellipse" name="ellipse"></ion-icon>Philippine Web3 Hackathon</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section section-contact">
+            <div class="contact-box">
+                <div class="pink-line-thick"></div>
+                <p class="contact-me heading">Contact Me</p>
+                <p class="email">airaclaveria21@gmail.com</p>
+                <div class="pink-line-thick"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section footer">
+        <p>This portfolio is originally designed and coded by Aira Allyzon Claveria 2023 from scratch</p>
+    </footer>
+</body>
+</html>
