@@ -193,7 +193,7 @@ const links = [
     'https://github.com/allyzonalison/all-CSS-from-Scratch',
     'https://github.com/allyzonalison/all-vanilla-js',
     'https://auburndigitalservices.com/portfolio/',
-    'https://www.facebook.com/'
+    'https://github.com/allyzonalison/my-port-finale'
     ];
 
 miniBoxes.forEach((box, index) => {
